@@ -13,6 +13,8 @@ var numbers = [1, 2, 3, 4];
 var sum = numbers.fold(0, (a, b) => a + b);
 Result :  // 0 + 1 + 2 + 3 + 4 = 10
 
+
+
 //Question 2
 void main() {
   num cube(num n) => n * n * n;
@@ -21,12 +23,15 @@ void main() {
 } 
 
 
+
 //Question 3
 void main(){
   List <int> numbers = [6,7,2,13,16];
   int sum = numbers.fold(10, (previous, current) => previous + current);
   print('Sum= $sum'); 
 }
+
+
 
 //Question 4
 mixin CanFly {
